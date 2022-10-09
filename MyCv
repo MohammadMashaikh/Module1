@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My CV</title>
+</head>
+
+<body>
+
+
+    <div>
+        <img src="https://media-exp1.licdn.com/dms/image/D4D03AQELqgvm3Jyewg/profile-displayphoto-shrink_800_800/0/1664644783262?e=2147483647&v=beta&t=p5b_uMqHNwx_LtQdNVJQz-Kn0z8f8G2HxxzScVEV6lk"
+            alt="" width="250px" height="250px">
+    </div>
+    <div>
+        <h2>Contact</h2>
+        <p><b>Email:</b> mohammadmashaikh99@yahoo.com</p>
+        <p><b>Phone:</b> +962789447358</p>
+        <p><b></b><a href="https://www.linkedin.com/in/mohammad-al-mashaikh-31ba57220/">Linkedin</a></p>
+        <p><b></b><a href="https://github.com/MohammadMashaikh">Github</a></p>
+    </div>
+
+    <div>
+        <h2>Skills</h2>
+
+        <ul>
+
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>PHP</li>
+            <li>Bootstrap</li>
+        </ul>
+
+    </div>
+
+    <div>
+        <h2>Languages</h2>
+        <ul>
+            <li>Arabic</li>
+            <li>English</li>
+        </ul>
+    </div>
+    </div>
+    </div>
+
+
+    <h2>Summary</h2>
+
+    <p>To secure a challenging position in a
+        reputable organization
+        to expand my learning knowledge and skill
+    </p>
+
+
+    <div>
+        <h2>Experience</h2>
+        <h3>Magic Planet-CSA</h3>
+        <p>January 2018-October 2018</p>
+
+        <h3>Hamawi Roastery-Sales Officer</h3>
+        <p>July-2019-September-2022</p>
+
+    </div>
+
+    <div>
+        <h2>Education</h2>
+        <h3>Major</h3>
+        <p>Software Engineering</p>
+    </div>
+
+    </div>
+
+</body>
+
+</html>
