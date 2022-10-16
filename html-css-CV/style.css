@@ -1,0 +1,34 @@
+.left-side {
+    float: left;
+    position: relative;
+    background-color: lightblue;
+
+}
+
+
+.right-side {
+    float: right;
+    background-color: white;
+
+}
+
+
+
+
+
+
+.mydiv {
+
+    padding-top: 30px;
+    padding-bottom: 15px;
+    display: block;
+
+
+
+
+}
+
+body {
+    font-size: 17px;
+
+}
