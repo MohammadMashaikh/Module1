@@ -1,0 +1,32 @@
+#book-hero {
+    background-image: url(../images/mybookimage2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+
+}
+
+#book-hero>div>div {
+    background-color: rgba(240, 240, 240, .9);
+
+
+}
+
+#book-search-course button {
+    margin-left: -11%;
+
+}
+
+#book-course-form button {
+    margin-left: -18%;
+}
+
+#book-submit {
+    margin-left: 10.5rem;
+}
+
+main {
+    padding: 4rem;
+}

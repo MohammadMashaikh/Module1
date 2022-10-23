@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <title>My Books</title>
+</head>
+
+
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./images/logo.jpg" alt="bookImage" width="60" height="60">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./all-books.html">All books</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Single book</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Contact-us.html">Contact Us</a>
+                        </li>
+
+                    </ul>
+                    <form id="book-course-form" class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success border-0" type="submit"><i
+                                class="fa-solid fa-magnifying-glass">
+
+                            </i>
+
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+        <div id="book-hero" class="container-fluid p-5 ">
+            <div class="d-flex justify-content-center">
+                <div class="w-25 my-5 p-3 rounded">
+                    <p class="text-center">Find Your Book</p>
+                    <h1 class="text-center">List Of Books</h1>
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputtext1" class="form-label d-none">Search Your Book</label>
+                            <div id="book-search-course" class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success border-0" type="submit"><i
+                                        class="fa-solid fa-magnifying-glass"></i>
+
+                                </button>
+
+                            </div>
+                        </div>
+
+                        <button id="book-submit" type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+
+    <main class="container">
+        <h1 class="text-center">Top Courses</h1>
+        <hr class="w-50 text-center m-auto">
+        <div id="htu-courses-wrapper" class="mt-5 row justify-content-around">
+            <div class="htu-card-wrapper col-12 col-md-6 col-lg-5 mb-5">
+                <div class="card">
+                    <img src="./images/myimage.png" class="card-img-top" alt="My Book">
+                    <div class="card-body">
+                        <h5 class="card-title">Book 1</h5>
+                        <small>02/10/2013</small>
+                        <p class="card-text">
+                            John Keny CEO at Seen Company.
+                        </p>
+                        <a href="#" class="btn btn-primary">Add to The Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="htu-card-wrapper col-12 col-md-6 col-lg-5 mb-5">
+                <div class="card">
+                    <img src="./images/myimage.png" class="card-img-top" alt="My Book">
+                    <div class="card-body">
+                        <h5 class="card-title">Book 2</h5>
+                        <small>05/5/1999</small>
+                        <p class="card-text">
+                            Mike Johnson Software Enginner at dot Company.
+                        </p>
+                        <a href="#" class="btn btn-primary">Add to The Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="htu-card-wrapper col-12 col-md-6 col-lg-5 mb-5">
+                <div class="card">
+                    <img src="./images/myimage.png" class="card-img-top" alt="My Book">
+                    <div class="card-body">
+                        <h5 class="card-title">Book 3</h5>
+                        <small>11/7/2004</small>
+                        <p class="card-text">
+                            Mohammad Malek IT Technical at Jo Company.
+                        </p>
+                        <a href="#" class="btn btn-primary">Add to The Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="htu-card-wrapper col-12 col-md-6 col-lg-5 mb-5">
+                <div class="card">
+                    <img src="./images/myimage.png" class="card-img-top" alt="My Book">
+                    <div class="card-body">
+                        <h5 class="card-title">Book 4</h5>
+                        <small>24/2/2021</small>
+                        <p class="card-text">
+                            Khaled Ameen Marketing Manager at Microsoft.
+                        </p>
+                        <a href="#" class="btn btn-primary">Add to The Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="htu-card-wrapper col-12 col-md-6 col-lg-5 mb-5">
+                <div class="card">
+                    <img src="./images/myimage.png" class="card-img-top" alt="My Book">
+                    <div class="card-body">
+                        <h5 class="card-title">Book 5</h5>
+                        <small>01/7/2014</small>
+                        <p class="card-text">
+                            Sedra Swager UI/UX at Google.
+                        </p>
+                        <a href="#" class="btn btn-primary">Add to The Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="htu-card-wrapper col-12 col-md-6 col-lg-5 mb-5">
+                <div class="card">
+                    <img src="./images/myimage.png" class="card-img-top" alt="My Book">
+                    <div class="card-body">
+                        <h5 class="card-title">Book 6</h5>
+                        <small>14/3/2017</small>
+                        <p class="card-text">
+                            Joud Jehan Owner of Anso Company.
+                        </p>
+                        <a href="#" class="btn btn-primary">Add to The Cart</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+
+
+</body>
+
+
+<footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="./all-books.html" class="nav-link px-2 text-muted">All Books</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Signle Book</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact Us</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2022 Company, Inc</p>
+</footer>
+
+</html>
