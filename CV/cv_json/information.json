@@ -1,0 +1,17 @@
+{
+  "basics": {
+    "name": "John Doe",
+    "work_name": "Microsoft",
+    "work_pos": "PHP Web Developer",
+    "image": "file:///C:/Users/Mohammad/Downloads/my%20picture.png",
+    "email": "john@gmail.com",
+    "phone": "(912) 555-4321",
+    "github": "https://github.com/MohammadMashaikh",
+    "education": "Software Engineering",
+    "skills_name1": "Html",
+    "skills_name2":"CSS",
+    "skills_name3":"JavaScript",
+    "skills_name4": "PHP"
+}
+}
+
